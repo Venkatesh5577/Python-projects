@@ -1,5 +1,5 @@
 def calculate_bmi(weight_kg: float, height_m: float) -> float:
-    """
+   
     Calculate Body Mass Index (BMI)
     """
     bmi = weight_kg / (height_m ** 2)
