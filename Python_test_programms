@@ -23,4 +23,14 @@ else:
     print("Your loan is rejected  , ", appli_name)
 
 #Wiegth_coverter
+user_wieght = float(input("Enter wieght:    "))
+wit_major = (input("Enter (LB) or  (KG) :  "))
+
+if wit_major.upper()  == "L" :
+    user_wieght = user_wieght * 0.45
+    print(f"{user_wieght:.2f} kilos")
+else :
+    user_wieght = user_wieght / 0.45
+    print(f"{user_wieght:.2f} LBs")
+
 
