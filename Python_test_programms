@@ -10,3 +10,13 @@ elif crdit_score < 650:
     down_payment = 0.2 * home_price
     print("Amount payable is : $", down_payment)
 
+appli_name = input("Enter your name: ")
+appli_income = int(input("Enter your income : "))
+appli_crdit = int(input("Enter your crdit score: "))
+if appli_income > 4100000 & appli_crdit > 650:
+    print("Your Loan is granted ,  " , appli_name)
+
+elif appli_income > 700000 & appli_crdit > 450:
+    print("your loan might get a few checks on documents , ", appli_name)
+else:
+    print("Your loan is rejected  , ", appli_name)
