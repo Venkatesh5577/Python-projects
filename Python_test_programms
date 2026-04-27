@@ -1,3 +1,4 @@
+#home_down_payment_detector
 home_price = 2500000
 crdit_score = int(input("Enter the crdit score: "))
 if crdit_score > 650:
@@ -20,3 +21,6 @@ elif appli_income > 700000 & appli_crdit > 450:
     print("your loan might get a few checks on documents , ", appli_name)
 else:
     print("Your loan is rejected  , ", appli_name)
+
+#Wiegth_coverter
+
