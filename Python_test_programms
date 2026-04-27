@@ -50,5 +50,27 @@ while guess_attempts > guess_counts:
 else:
     print("Sorry, you didn't guess it!")
 
+#car_game
+while True:
+    car = input('> ').lower()
+
+    if car == 'start':
+        print('Welcome to Nascar kid! (this is Mic your driving assistant), car is started')
+    elif car == 'stop':
+        print("Car stopped, kid what happened!!")
+    elif car == 'restart':
+        print("Going to pit stop, hurry!")
+    elif car == 'home':
+        print("Menu: resume | exit race | help")
+    elif car == 'pass':
+        print("That's how you overtake the opponents kid! (Mic)")
+    elif car == 'help':
+        print("Ambulance on the way!")
+    elif car == 'exit':
+        print("Exiting race...")
+        break
+    else:
+        print("Do not understand, please choose valid race command")
+
 
 
