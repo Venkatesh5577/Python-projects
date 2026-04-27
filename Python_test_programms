@@ -33,4 +33,22 @@ else :
     user_wieght = user_wieght / 0.45
     print(f"{user_wieght:.2f} LBs")
 
+#Guess_game
+secret_num = 12
+
+guess_counts = 0
+guess_attempts = 3
+
+while guess_attempts > guess_counts:
+    guess_num = int(input("Guess a number : "))
+    guess_counts += 1
+
+    if guess_num == secret_num:
+        print("Congratulations! You guessed it!")
+        break   # stop the loop immediately
+
+else:
+    print("Sorry, you didn't guess it!")
+
+
 
