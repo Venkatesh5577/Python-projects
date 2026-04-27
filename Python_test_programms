@@ -1,1 +1,12 @@
+home_price = 2500000
+crdit_score = int(input("Enter the crdit score: "))
+if crdit_score > 650:
+    print("Your crdit score is best :  " ,  crdit_score  )
+    down_payment = 0.1 * home_price
+    print("Amount payable is : ", down_payment)
+
+elif crdit_score < 650:
+    print("Your crdit score is worse :  " , crdit_score )
+    down_payment = 0.2 * home_price
+    print("Amount payable is : $", down_payment)
 
