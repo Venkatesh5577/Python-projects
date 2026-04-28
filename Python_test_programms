@@ -72,5 +72,10 @@ while True:
     else:
         print("Do not understand, please choose valid race command")
 
+# table_builder
+n =int(input("enter the number for table : ))
+for i in range(n ,(n * 10) + 1 , n)
+   print(i)
+
 
 
