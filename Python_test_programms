@@ -120,4 +120,25 @@ a ="english"
 for i in range(len(a)-1 , -1, -1)
 print(a[i])
 
+# Guessing_number-game
+import random
+n = random.randint(1,10)
+tries = 0
+while True:
+    guess = int(input("Guess a number: "))
+    if guess == n:
+       tries += 1
+       print(f'You guessed it! in {tries} tries')
+       break
+
+    elif guess < n:
+        print("Too low")
+        tries += 1
+    elif guess > n:
+        print("Too high")
+        tries += 1
+    else:
+        print("wrong")
+        tries += 1
+
 
