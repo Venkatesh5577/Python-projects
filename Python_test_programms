@@ -177,3 +177,41 @@ for i in range (len(a)):
     else:
         total += a[i]
        print(f" the num is zero {a[i]},{total} ")
+
+
+Average
+a = [1,2,3,4,5,]
+ sum = 0
+for i in range(len(a)):
+   sum = sum + a[i]
+if  sum // len(a) :
+    print("average is ", sum // len(a))
+
+
+
+Greatest
+a = [1,2,3,4,5,6,7,8,9,5,6,7,4,2,34,54,7,89,11112,43435,5]
+largest = a[0]
+index = 0
+for i in range (len(a)):
+  if a[i] > largest:
+      largest = a[i]
+      index = i
+
+
+print(largest, index)
+second_largest
+a =[1,2,3,4,56,76,8,98]
+largest   =  a[0]
+second_largest = a[0]
+for i in range(len(a)):
+   if a[i] > largest   :
+    second_largest = largest
+      largest  = a[i]
+   elif a[i] > second_largest:
+ print(largest, second_largest)
+
+
+
+
+
