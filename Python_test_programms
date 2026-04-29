@@ -141,4 +141,15 @@ while True:
         print("wrong")
         tries += 1
 
+#defining_function
+def palin(a):
+    rev = ""
+    for i in range(len(a) - 1,-1,-1 ):
+        rev = rev + a[i]
+
+    if rev == a:
+       print(f"{a} is a Palindrome")
+    else:
+        print(f"{a} is not a Palindrome")
+
 
