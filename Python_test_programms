@@ -167,4 +167,13 @@ for i in range (len(a) - 1):
 else:
     print("sorted")
 
-
+a =[1,2,3,4,5,-2,-23, -4, -88 , 0, 67 , -10000]
+total = 0
+for i in range (len(a)):
+   if a[i] > 0:
+        print(f" the num is positive {a[i]} , {total} ")
+    elif a[i] < 0:
+        total += a[i]
+    else:
+        total += a[i]
+       print(f" the num is zero {a[i]},{total} ")
