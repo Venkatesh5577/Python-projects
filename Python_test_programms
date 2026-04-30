@@ -259,5 +259,11 @@ else:
     
 print("the club will start soon")
 
-
+#File_handling
+p = open("Apple.txt", 'w')
+p.write('Apple are great fruits , but guava has more nuritions')
+p.close()
+p= open("Apple.txt", 'a')
+p.write('They are less priced and are available everywhere , 40 % more Vitamin C than Kiwis.')
+p.close()
 
