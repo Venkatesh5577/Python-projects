@@ -237,5 +237,16 @@ for i in d1:
 
 print(sum)
 
+#occurence_
+d1 = [ 10 , 100 , 20 , 200 , 30 , 300 , 2,12,10,200,344,20,20,20]
+d = {}
+for i in d1:
+    if i in d.keys():
+        d[i] = d[i] + 1
+    else:
+        d[i] = 1
+
+
+print(d)
 
 
