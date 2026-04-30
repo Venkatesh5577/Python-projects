@@ -212,6 +212,18 @@ for i in range(len(a)):
  print(largest, second_largest)
 
 
+#merge_dictionaries
+d1 = { 10 : 100 , 20 : 200 , 30 : 300 }
+d2 = { 40 : 300 , 60 : 2500 , 70 : 3900 , 34 :200 }
+d3 = { 10 : 300 , 20 : 2500 , 30 : 400 , 40 : 5000 , 60:2000}
 
+for i in d3:
+    d1[i] = d3[i]
+print(d1)
+
+for i in d2:
+    d1[i] = d2[i]
+
+print(d2)
 
 
