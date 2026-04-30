@@ -250,3 +250,14 @@ for i in d1:
 print(d)
 
 
+#exception_handling_raise
+age = int(input("Enter your age: "))
+if age < 10 or age > 18:
+    raise ValueError("age must be between 10 and 18")
+else:
+    print("Welcome")
+    
+print("the club will start soon")
+
+
+
