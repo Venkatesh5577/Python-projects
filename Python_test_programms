@@ -335,3 +335,22 @@ day_of_week_result = day_of_week(day, month, year)
 
 # Output the result as an integer (0 = Sunday, 1 = Monday, ..., 6 = Saturday)
 print(day_of_week_result)
+
+#negotiator
+item = input("What are you buying? ")
+seller_price = float(input("What is the seller's price? "))
+my_max_budget = float(input("What is your maximum budget? "))
+
+# Logic: Suggest a counter-offer that is 15% below your budget 
+# to give yourself room to "concede" back up to your limit.
+starting_offer = my_max_budget * 0.85
+
+print(f"\n--- Negotiation Strategy for {item} ---")
+print(f"1. Start your offer at: ₹{starting_offer:.2f}")
+print(f"2. Your 'Walk-Away' price is: ₹{my_max_budget:.2f}")
+
+if starting_offer > seller_price:
+    print("Strategy: Their price is already great! Just take it.")
+else:
+    gap = seller_price - starting_offer
+    print(f"Strategy: You need to bridge a gap of ₹{gap:.2f}. Start low!")
